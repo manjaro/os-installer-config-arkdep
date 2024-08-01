@@ -18,7 +18,7 @@ suggested_languages:
     - 'uk'
 
 welcome_page:
-    logo    : '/usr/share/pixmaps/manjaro-logo.png'
+    logo    : '/etc/os-installer/icon.png'
     text    : 'Welcome to Manjaro Immutable!'
     usage   : yes
 
