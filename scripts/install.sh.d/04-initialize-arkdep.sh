@@ -41,8 +41,8 @@ backup_user_accounts=1
 # Ensure latest image as defined in the external database is always the default systemd-boot boot entry
 latest_image_always_default=0
 
-# List of files and folders to be recursively copied over from root to new root, path should start with /
-migrate_files=('/var/usrlocal' '/var/usrliblocale' '/var/opt' '/var/srv' '/var/nm-system-connections' '/var/lib/AccountsService' '/var/lib/bluetooth' '/var/lib/NetworkManager' '/etc/localtime' '/etc/locale.gen' '/etc/locale.conf')
+# List of files and folders to be recursively copied over from root tree to new root filesystem
+migrate_files=('var/usrlocal' 'var/opt' 'var/srv' 'var/lib/AccountsService' 'var/lib/bluetooth' 'var/lib/NetworkManager' 'var/lib/arkane' 'var/lib/manjaro-branch' 'var/lib/power-profiles-daemon' 'var/db' 'etc/localtime' 'etc/locale.gen' 'etc/locale.conf' 'etc/NetworkManager/system-connections' 'etc/ssh')
 
 # Load script extensions from /arkdep/extensions
 load_extensions=0
