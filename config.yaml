@@ -1,7 +1,7 @@
 %YAML 1.2
 ---
 
-distribution_name: 'Manjaro Immutable'
+distribution_name: 'Manjaro Summit'
 
 internet_connection_required: yes
 
@@ -19,7 +19,7 @@ suggested_languages:
 
 welcome_page:
     logo    : '/usr/share/icons/manjaro/2022/128x128.png'
-    text    : 'Welcome to Manjaro Immutable!'
+    text    : 'Welcome to Manjaro Summit!'
     usage   : yes
 
 minimum_disk_size: 32
